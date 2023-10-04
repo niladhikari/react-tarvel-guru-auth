@@ -1,0 +1,8 @@
+.background{
+    background-image: url("/public/Rectangle\ 1.png"),linear-gradient(rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0.70));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}

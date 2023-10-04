@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "Sundarbans Mangrove Forest",
+      "image": "https://i.ibb.co/gb2byYx/Sundarbans.jpg",
+      "title": "Explore the Enchanting Sundarbans",
+      "description": "Discover the world's largest mangrove forest, home to the royal Bengal tiger and unique biodiversity."
+    },
+    {
+      "id": 2,
+      "name": "Cox's Bazar",
+      "image": "https://i.ibb.co/S6yMjF3/Cox-s-Bazar.jpg",
+      "title": "Relax on Cox's Bazar Beach",
+      "description": "Enjoy the longest natural sea beach in the world, known for its golden sands and breathtaking sunsets."
+    },
+    {
+      "id": 3,
+      "name": "Sylhet Tea Gardens",
+      "image": "https://i.ibb.co/QCnFM9C/Sylhet.jpg",
+      "title": "Sip Tea Amidst Lush Sylhet Tea Gardens",
+      "description": "Experience the serenity of tea gardens and rolling hills in Sylhet, a paradise for tea lovers."
+    },
+    {
+      "id": 4,
+      "name": "Srimangal",
+      "image": "https://i.ibb.co/09yq82B/Srimangal.jpg",
+      "title": "Journey to Srimangal's Green Paradise",
+      "description": "Explore the 'Land of Two Leaves and a Bud,' famous for its tea estates and biodiversity."
+    },
+    {
+      "id": 5,
+      "name": "Rangamati Hill Tracts",
+      "image": "https://i.ibb.co/gRkpKpF/Rangamati-2.jpg",
+      "title": "Discover the Beauty of Rangamati Hill Tracts",
+      "description": "Embark on a scenic adventure in the hill tracts, surrounded by lush hills, lakes, and indigenous culture."
+    },
+    {
+      "id": 6,
+      "name": "Sajek Valley",
+      "image": "https://i.ibb.co/9HPn7XD/Sajek.jpg",
+      "title": "Escape to Sajek Valley's Serene Beauty",
+      "description": "Immerse yourself in the tranquility of Sajek Valley, surrounded by lush green hills, indigenous communities, and breathtaking landscapes."
+    }
+  ]
+  
