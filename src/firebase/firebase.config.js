@@ -5,12 +5,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCUk3RbOI_9heGo9jjV0duwfbVB-HROvU0",
-  authDomain: "react-tarvel-guru-auth.firebaseapp.com",
-  projectId: "react-tarvel-guru-auth",
-  storageBucket: "react-tarvel-guru-auth.appspot.com",
-  messagingSenderId: "344913118788",
-  appId: "1:344913118788:web:1ef927ecd87fadff1bde11"
+  apiKey:import.meta.env.VITE_APIKEY ,
+  authDomain:import.meta.env.VITE_AUTHDOMAIN ,
+  projectId:import.meta.env.VITE_PROJECTID ,
+  storageBucket:import.meta.env.VITE_STORAGEBUCKET ,
+  messagingSenderId:import.meta.env.VITE_MESSAGINGSENDERID ,
+  appId:import.meta.env.VITE_APPID ,
 };
 
 // Initialize Firebase
