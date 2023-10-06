@@ -3,6 +3,8 @@ import "./Home.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Header from "../Shared/Header/Header";
+// import { Swiper, SwiperSlide } from 'swiper/react';
+
 
 const Home = () => {
   const data = useLoaderData();
@@ -12,7 +14,7 @@ const Home = () => {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 5,
+      items: 2,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -24,14 +26,15 @@ const Home = () => {
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1,
+      items: 2,
     },
   };
 
   return (
-    <div className="background h-screen">
-      <div className="max-w-7xl mx-auto">
-        <div className="pt-40">
+    <div className="h-screen">
+      <div className=" grid grid-cols-3 justify-center items-center">
+       <div className="col-span-2"></div>
+       <div className="pt-40">
           <Carousel responsive={responsive}>
             {data.map((item) => (
               <Header

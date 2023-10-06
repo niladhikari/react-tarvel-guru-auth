@@ -4,8 +4,17 @@ const TravelCard = ({news}) => {
   const { image, name, title, description } = news;
 
   return (
-    <div className="">
-      <div className="card bg-base-100 shadow-xl">
+    <div className="" 
+    style={{
+      backgroundImage: `url(${image}), linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.70))`,
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundBlendMode: 'overlay',
+      /* Add other styles as needed */
+    }}
+    >
+      <div className="card  shadow-xl">
         <figure className="px-10 pt-10">
           <img
             src={image}
